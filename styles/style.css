@@ -5,6 +5,9 @@
     font-variation-settings:
       "wdth" 100;
   }
+  body{
+    background-color: #F5F5F5;
+  }
 
 /* nav style */
 nav{
@@ -21,17 +24,19 @@ nav{
     font-size: 18px;
     font-weight: 600;
     color: #006A50;
-    border-color: #006A50;
+    border: 2px solid  #006A50;
     background-color: white;
     border-radius: 8px;
     height: 52px;
     width: 116px;
 }
+.nav-btn:hover{
+    background-color: #93dab9;
+}
 /* banner styles */
 .banner{
     display: flex;
     justify-content: space-between;
-    max-width: 1280px;
     margin: 0 160px;
     margin-top: 20px;
     border-radius: 24px;
@@ -61,6 +66,39 @@ nav{
     border-radius: 8px;
     border: none;
 }
+.banner-btn:hover{
+    background-color: #93dab9;
+}
 .banner-image{
     margin: 80px 60px 80px 0;
+}
+/* pillar styles */
+.pillars{
+    margin: 80px 160px;
+}
+.pillar-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.pillar{
+    background-color: white;
+    width: 302px;
+    border-radius: 16px;
+    border-color: rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
+.pillar-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.pillar-subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.pillar-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
 }
