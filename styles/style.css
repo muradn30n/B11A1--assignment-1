@@ -364,4 +364,14 @@ margin-bottom: 32px;
 .subscribe-button:hover {
     background-color: #003300;
 }
-
+/* footer styles */
+footer{
+    padding: 50px 0;
+    background-color: white;
+}
+.icons{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
