@@ -20,6 +20,10 @@
     height: 45px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+}
+.text-center{
+    text-align: center;
 }
 /* nav style */
 nav{
@@ -184,3 +188,180 @@ nav{
     color: rgba(14, 14, 14, 0.7);
     margin-top: 0;
 }
+/* opinion section styles */
+.opinion{
+    margin: 80px 160px;
+}
+.opinion-section {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #C6E4D6;
+    padding: 24px;
+    text-align: left;
+    border: 1px solid rgba(14, 14, 14, 0.15);   
+}
+
+tbody td {
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+select {
+    padding: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 4px;
+    background-color: #C6E4D6;
+}
+
+.table-text{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #0E0E0E;
+}
+/* Recent News section styles */
+.recent-news{
+    margin: 0 160px;
+}
+.recent-newses1{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    gap: 32px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.aljazeera{
+    width: 134px;
+    height: 40px;
+}
+.news-image{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.time-date{
+    display: flex;
+    gap: 12px;
+}
+.date,.time{
+   font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.read-more{
+    background-color: #006A50;
+}
+.read-more:hover{
+    background-color:#012e22 ;
+}
+/* Donate section styles */
+.donate{
+    margin: 0 160px;
+}
+.donate-section{
+    margin-bottom: 24px;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    
+}
+.Taka{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 243px;
+    height: 128px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+.Taka:hover{
+    background-color: #C6E4D6;
+}
+.donate-input{
+width: 100%;
+height: 64px;
+border: none;
+margin-bottom: 32px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.donate-btn{
+    font-size: 18px;
+    font-weight: 600;
+    width: 151px;
+    height: 56px;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+.donate-btn:hover{
+    background-color:#023f30 ;
+}
+/* Newsletter Section Styles */
+.newsletter{
+    margin: 80px 160px;
+    
+}
+.newsletter-container {
+    /* height: 395px; */
+    padding: 80px 256px;
+    text-align: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.input-subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.newsletter-container input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: #004d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #003300;
+}
+
